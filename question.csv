@@ -1,0 +1,31 @@
+Serial_no,Question,A,B,C,D,Answer,Category
+1,"What is the output of the following? X =['ab', 'cd'] for i in x: i.upper() print(x)","[‘ab’, ‘cd’]","[‘AB’, ‘CD’]","[None, None]",none of the mentioned,A,Python
+2,"What is the output of the following? x = ['ab', 'cd'] for i in x: x.append(i.upper()) print(x)","[‘AB’, ‘CD’].","[‘ab’, ‘cd’, ‘AB’, ‘CD’]","[‘ab’, ‘cd’]",none of the mentioned,D,Python
+3,What is the output of the following? i = 1 while True: if i%3 == 0: break print(i) i + = 1,1 2,1 2 3,error,none of the mentioned,C,Python
+4,What is the output of the following? i = 1 while True: if i%0O7 == 0: break print(i) i += 1,1 2 3 4 5 6,1 2 3 4 5 6 7,error,none of the mentioned,A,Python
+5,What is the output of the following? i = 5 while True: if i%0O11 == 0: break print(i) i += 1,5 6 7 8 9 10,5 6 7 8,5 6,error,B,Python
+6,What is the output of the following? i = 5 while True: if i%0O9 == 0: break print(i) I += 1,5 6 7 8,5 6 7 8 9,5 6 7 8 9 10 11 12 13 14 15 ….,error,D,Python
+7,What is the output of the following? i = 1 while True: if i%2 == 0: break print(i) i += 2,1,1 2,1 2 3 4 5 6 …,1 3 5 7 9 11 …,D,Python
+8,What is the output of the following? i = 2 while True: if i%3 == 0: break print(i) i += 2,2 4 6 8 10 …,24,23,error,B,Python
+9,What is the output of the following? i = 1 while False: if i%2 == 0: break print(i) i += 2,1,1 3 5 7 …,1 2 3 4 …,none of the mentioned,D,Python
+10,What is the output of the following?  True = False while True: print(True) break,TRUE,FALSE,none,none of the mentioned,D,Python
+11,"If the price of a book is increased by 20%, by what percentage should the sales price be decreased to bring it back to the original price?",16%,20%,25%,10%,A,Maths
+12,"If 15% of a number is 45, what is 30% of that number?",90,60,30,15,A,Maths
+13,A TV was originally priced at $800. It is now being sold at a discount of 20%. What is the discounted price?,$640,$20,$860,$960,A,Maths
+14,"The average of five numbers is 32. If one of the numbers is 45, what is the average of the remaining numbers?",30,34,35,none of the mentioned,D,Maths
+15,"The average of six numbers is 18. If one of the numbers is 24, what is the average of the remaining numbers?",18,16,20,22,B,Maths
+16,"The average age of a family of four is 28 years. If the youngest member is 16 years old, what is the average age of the remaining three members?",30,34,32,36,C,Maths
+17,"If the ratio of boys to girls in a classroom is 4:5, and there are 36 boys, how many girls are there in the classroom?",20,25,30,45,D,Maths
+18,"The ratio of the lengths of two rectangles is 3:4. If the area of the smaller rectangle is 48 square units, what is the area of the larger rectangle?",64 square units,72 square units,96 square units,128 square units,C,Maths
+19,"If John can complete a job in 8 hours and Sarah can complete the same job in 12 hours, how long will it take them to complete the job together?",3hr,4hr,5hr,6hr,A,Maths
+20,What is the HCF of 36 and 48?,6,12,18,24,B,Maths
+21,Who invented Java Programming?,Guido van Rossum,James Gosling,Dennis Ritchie,Bjarne Stroustrup,B,Java
+22,Which statement is true about Java?,Java is a sequence-dependent programming language,Java is a code dependent programming language,Java is a platform-dependent programming language,Java is a platform-independent programming language,D,Java
+23,"Which component is used to compile, debug and execute the java programs?",JRE,JIT,JDK,JVM,C,Java
+24,Which one of the following is not a Java feature?,Object-oriented,Use of pointers,Portable,Dynamic and Extensible,B,Java
+25,Which of these cannot be used for a variable name in Java?,identifier & keyword,identifier,keyword,none of the mentioned,C,Java
+26,What is the extension of java code files?,.js,.txt,.class,.java,D,Java
+27,Which environment variable is used to set the java path?,MAVEN_Path,JavaPATH,JAVA,JAVA_HOME,D,Java
+28,Which of the following is not an OOPS concept in Java?,Polymorphism,Inheritance,Compilation,Encapsulation,C,Java
+29,Which exception is thrown when java is out of memory?,MemoryError,OutOfMemoryError,MemoryOutOfBoundsException,MemoryFullException,B,Java
+30,Which of these keywords is used to define interfaces in Java?,intf,Intf,interface,Interface,C,Java
