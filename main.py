@@ -7,7 +7,7 @@ import result as res
 import exit
 
 
-conn = my.connect(host="localhost",user = "root",password = "123456",database= "vishnu_test")
+conn = my.connect(host="localhost",user = "root",password = "123456",database= "quizzii")
 cur = conn.cursor()
 # print(conn)
 
