@@ -3,7 +3,7 @@ import random
 import exit
 import updateProfile as update
 
-conn = my.connect(host="localhost",user = "root",password = "123456",database= "vishnu_test")
+conn = my.connect(host="localhost",user = "root",password = "123456",database= "quizzii")
 cur = conn.cursor()
 
 # Show Profile function
