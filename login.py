@@ -20,10 +20,6 @@ def login():
     data = cur.fetchone() #fetchall
     # print(data)
     if data is not None:
-        try:
-            pass
-        except:
-            pass
         pwd = input("Enter password: ")
         if data[3] == pwd:
             print(f"Welcome {data[0]}")
