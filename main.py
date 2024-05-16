@@ -1,5 +1,4 @@
 import mysql.connector as my
-import random
 import register as reg
 import login as log
 import attemptQuiz as aq 
